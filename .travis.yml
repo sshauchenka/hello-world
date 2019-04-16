@@ -23,3 +23,7 @@ script:
 before_install:
 - openssl aes-256-cbc -K $encrypted_ca95c0298e71_key -iv $encrypted_ca95c0298e71_iv
   -in meta_folder/private_key.pem.enc -out meta_folder/private_key.pem -d
+dd:
+- openssl aes-256-cbc -K $encrypted_ca95c0298e71_key -iv $encrypted_ca95c0298e71_iv
+  -in meta_folder\\private_key.pem.enc -out C:\\Users\\Garage\\.aos\\security\\private_key.pem
+  -d
