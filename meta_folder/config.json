@@ -14,8 +14,5 @@
         "python3", "vis_client_example.py"
       ]
     }
-  },
-  "quotas": {
-    "cpu_limit": 50
   }
 }
